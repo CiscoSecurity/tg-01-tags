@@ -1,8 +1,8 @@
 import requests
 
-api_key = 'ujvti7c23leqcuaomc24nmdev6'
+api_key = 'asdf1234asdf1234asdf1234'
 
-sample_id = 'cc3d13fe82aa07f67fee5ae8346adfa6'
+sample_id = '<SAMPLE_ID>'
 
 tag = 'MyTag'
 
