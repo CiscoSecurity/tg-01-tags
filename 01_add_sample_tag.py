@@ -10,4 +10,4 @@ url = 'https://panacea.threatgrid.com/api/v2/samples/{}/tag?api_key={}&tag={}'.f
 
 r = requests.post(url)
 
-print r.json()
+print(r.json())

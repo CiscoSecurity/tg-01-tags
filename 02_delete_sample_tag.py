@@ -10,4 +10,4 @@ url = 'https://panacea.threatgrid.com/api/v2/samples/{}/tag/{}?api_key={}'.forma
 
 r = requests.delete(url)
 
-print r.status_code
+print(r.status_code)
