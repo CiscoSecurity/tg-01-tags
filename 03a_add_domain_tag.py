@@ -2,6 +2,8 @@ import requests
 
 api_key = 'asdf1234asdf1234asdf1234'
 
+# EXAMPLE:
+# domain = 'cisco.com'
 domain = '<DOMAIN>'
 
 tag = 'MyTag'
