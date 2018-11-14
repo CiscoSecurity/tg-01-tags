@@ -1,4 +1,6 @@
-### Working with Tags
+[![Gitter chat](https://img.shields.io/badge/gitter-join%20chat-brightgreen.svg)](https://gitter.im/CiscoSecurity/Threat-Grid "Gitter chat")
+
+### Threat Grid Working with Tags
 
 These scripts demonstrate how to add, list, and delete tags from entities in Threat Grid. They are grouped by the entity they operate on:
 
