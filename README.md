@@ -1,6 +1,6 @@
 [![Gitter chat](https://img.shields.io/badge/gitter-join%20chat-brightgreen.svg)](https://gitter.im/CiscoSecurity/Threat-Grid "Gitter chat")
 
-### Threat Grid Working with Tags
+### Threat Grid Working with Tags:
 
 These scripts demonstrate how to add, list, and delete tags from entities in Threat Grid. They are grouped by the entity they operate on:
 
@@ -13,9 +13,9 @@ These scripts demonstrate how to add, list, and delete tags from entities in Thr
 07: Registry Keys  
 
 ### Before using you must update the following:
-- Line 3/4: api_key
+- api_key
 
-Entity names used in the different scripts are found on line 7 or 11 depending on the script:
+Entity names where present:
 - sample_id
 - ip_address
 - domain
@@ -24,17 +24,19 @@ Entity names used in the different scripts are found on line 7 or 11 depending o
 - artifact_sha256
 - registry_key
 
-Using domain as an example you will need to update it from:
+When an entity is present in a script an example with the appropriate format is provided as a comment. These variables are noted with a < (less-than-sign) and > (greater-than-sign).
 ```
-domain = '<DOMAIN>'
+# EXAMPLE:
+# ip_address = '193.70.19.218'
+ip_address = '<IP_ADDRESS>'
 ``` 
-to
-```
-domain = 'cisco.com'
-```
 
-### Usage
-
+### Usage:
 ```
 python 01a_add_sample_tag.py
+```
+
+### Example script output:
+```
+{'api_version': 2, 'id': 1363296}
 ```
